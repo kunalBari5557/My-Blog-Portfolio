@@ -24,7 +24,6 @@
     "react-scroll": "^1.8.4",
     "reactstrap": "^8.10.0",
     "tsparticles": "^1.36.0",
-    "typewriter-effect": "^2.18.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
