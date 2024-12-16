@@ -1,0 +1,19 @@
+.typewriter-text {
+    font-size: 2.5rem;
+    /* Typewriter text size */
+    font-weight: bold;
+    color: #00a6db;
+    /* Blue color for highlighting */
+    margin-top: 1rem;
+    border-right: 2px solid #00a6db;
+    /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .typewriter-text {
+        display: none;
+        /* Hide text on devices with a width of 768px or less */
+    }
+}

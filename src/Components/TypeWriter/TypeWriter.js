@@ -20,10 +20,11 @@
 // export default TypeWriter;
 
 import React, { useState, useEffect } from "react";
+import "./TypeWriter.css";
 
 function TypeWriter() {
   const [text, setText] = useState("");
-  const strings = ["Full-Stack Web-Developer", "MERN Stack Developer"];
+  const strings = ["Full-Stack Web Developer", "MERN Stack Developer"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -40,10 +41,15 @@ function TypeWriter() {
         }, 1000); // delay before starting the next string
       }
     }, 100); // typing speed
-    return () => clearInterval(interval); // cleanup on component unmount
+    return () => clearInterval(interval);
   }, [index]);
 
-  return <div>{text}</div>;
+  return (
+    <div>
+      <div className="typewriter-text">{text}</div>
+    </div>
+  );
 }
 
 export default TypeWriter;
+
