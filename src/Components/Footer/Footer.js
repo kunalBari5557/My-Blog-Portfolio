@@ -7,12 +7,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 import "./footer.css"
 
 function Footer() {
-  
+
   return (
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © 2021</h3>
+          <h3>Copyright © 2024 Kunal Aage</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Kunal Aage</h3>
@@ -21,20 +21,20 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/raojipatil"
+                href="https://github.com/kunalBari5557"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/raoji-patil-3355aa181/"
+                href="https://www.linkedin.com/in/kunal-aage-947b7a21a"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
