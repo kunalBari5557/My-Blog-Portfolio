@@ -59,7 +59,31 @@ function Projects() {
               tech="Tech-Stacks"
               techD="React Js | React-Router | Html | CSS | Javascript"
               link="https://admin-demo-gamma.vercel.app/"
-              a="https://github.com/RaojiPatil/Healthmug-clone-cw-project"
+              a="https://github.com/kunalBari5557/Admin_Panel"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Screenshot_5.png"
+              title="Admin Dashboard"
+              description="This project is a modern, responsive dashboard UI built using React and Tailwind CSS. It features a clean, minimalistic design and includes interactive components such as a sidebar navigation, header, and scrollable main content. The dashboard is fully responsive, ensuring seamless performance across different devices and screen sizes."
+              tech="Tech-Stacks"
+              techD="React Js | Typescript | Tailwind | Html | CSS | Javascript"
+              link="https://react-dashboard-one-psi.vercel.app/"
+              a="https://github.com/kunalBari5557/React-Dashboard"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/Screenshot_6.png"
+              title="Admin Dashboard"
+              description="This is a modern and visually appealing Admin Panel interface designed to provide users with key insights into financial transactions, budgets, and savings. The dashboard features a sleek, dark-themed UI with vibrant orange accents to highlight important data points and actions."
+              tech="Tech-Stacks"
+              techD="React Js | Tailwind | Html | CSS | Javascript"
+              link="https://github.com/kunalBari5557/React_Vite_Theme_Dasboard"
+              a="https://github.com/kunalBari5557/React_Vite_Theme_Dasboard"
             />
           </Col>
 
